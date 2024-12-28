@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px 20px 20px 20px;
+    padding: 0;
+    background:rgb(22, 233, 75);
+    color:rgb(18, 3, 82);
+}
+
+header{width:100%;display:grid;grid-template-columns: 1fr 2fr 1fr;}
+header div{background-image: url("assets/logo-nallandavarprints.jpg");background-blend-mode: color-burn;background-repeat: no-repeat;background-size: contain;}
+
+
+nav {
+    margin: 20px;
+    padding: 20px;
+    background-color:  rgb(44, 124, 216);
+    border-radius: 30px;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+   
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+div {display: flex;flex-wrap: nowrap;}
+#contact{width:45%;
+background-color: rgb(44, 124, 216);
+color: white;
+border-radius: 3%;
+font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#location{width:45%;
+background-color:  rgb(44, 124, 216);border-radius: 3%;}
+
+form {
+    display: grid;
+}
+form #submit {
+    justify-content: center;
+}
+
+#name, #email{width: 70%; height: 30px; border-radius: 5%;margin-top: 3px;}
+#submit{width: 20%;background-color: rgb(9, 76, 131);color:white;padding: 10px;border-radius: 10px;}
+
+div h1{position:sticky;left:1200px;z-index: 1000;width:10px }
+footer {
+    margin-top: 5px;
+    background-color: rgb(32, 9, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
